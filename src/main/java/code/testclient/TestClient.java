@@ -10,7 +10,7 @@ public class TestClient {
     public static void main(String[] args) {
         try {
             // Connect to the server on localhost and port 1234
-            Socket socket = new Socket("localhost", 1234);
+            Socket socket = new Socket("localhost", 5000);
 
             // Set up input and output streams for communication
             BufferedReader userInput = new BufferedReader(new InputStreamReader(System.in));
